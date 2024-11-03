@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bookappointment</title>
+    <link rel="stylesheet" href="./bookappointment.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">
+                <img src="./images/logo.jpeg" alt="logo" class="nav-logo">
+            </a>
+            <h3>NOAH'S ARK CLINIC & PHARMACY</h3>
+            <div class="nav-button">
+                <a href="./index.html">home</a>
+                <a href="#">about Us</a>
+                <a href="#">contact Us</a>
+                <a href="#">book appointment</a>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="appointment-form">
+            <form action="" class="grid-form">
+                <h1>Book an appointment</h1><br>
+                <br>
+                <label for=""></label>
+                <select name="select service" id="">
+                    <option value="">Select Service</option>
+                    <option value="">Pharmacist</option>
+                    <option value="">Medical Doctor</option>
+                    <option value="">dentist</option>
+                    <option value="">maternity</option>
+                    <option value="">accountant</option>
+                </select><br>
+                <br>
+                
+                <label for=""></label>
+                <input type="text" name="" id="" placeholder="Your Name" required><br>
+                <br>
+                <label for=""></label>
+                <input type="email" name="" id="" placeholder="Your Email" required><br>
+                <br>
+                <select name="" id="">Preferred Clinic Loction>
+                    <option value="">Preferred Clinic Loction</option>
+                    <option value="">Home Servive</option>
+                    <option value="">GRA portharcourt</option>
+                </select><br>
+                <br>
+                <select name="" id="">
+                    <option value="">New or Existing Patient</option>
+                    <option value="">New Patient</option>
+                    <option value="">Existing Patient</option>
+                </select><br>
+                <br>
+                <label for=""></label>
+                <input type="number" name="" id="" placeholder="Number"><br>
+                <br>
+                <input type="datetime-local" name="date" id=""><br>
+                <br>
+                <input type="button" value="Book Now" class="book-button" onclick="bookAppointment()">
+                <div id="booking-message">
+                    <script>
+                        function bookAppointment() {
+                          document.getElementById("booking-message").innerHTML = "Thank you for booking! Your appointment is processing.";
+                        }
+                        </script>
+                        
+
+                </div>
+                    
+            </form>
+        </div>
+    </main>
+    
+</body>
+</html>

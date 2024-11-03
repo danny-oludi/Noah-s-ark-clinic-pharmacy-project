@@ -1,0 +1,196 @@
+*{
+    box-sizing:border-box ;
+    margin: 0;
+    padding: 0;
+}
+.nav-logo{
+    width: 50px;
+    margin: 20px 20px;
+    
+}
+header{
+    width: 100%;
+    height: 100vh;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-button{
+    margin: 20px 130px;
+    justify-content: space-around;
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    background-color:rgb(48, 48, 94);
+    border-radius: 10px;
+
+}
+h3{
+    margin-right: 430px;
+    margin-top: 25px;
+    color: rgb(48, 48, 94);
+    padding-right: 50px;
+}
+.hero-section{
+    width: 100%;
+    height: 70vh;
+    background-image: url(./images/Hilton-Dental-Family-Background.jpg);
+    background-size: cover;
+    
+}
+.nav-button > a{
+    color: aliceblue;
+    padding: 10px;
+    
+}
+.hero-section-text{
+    padding-top: 200px;
+    padding-left: 50px;
+}
+.hero-section-text > p{
+    padding-top: 8px;
+    padding-left: 5px;
+    border: 2px solid black;
+    width: 160px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgb(48, 48, 94);
+
+}
+
+.grid-main-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 6px;
+    margin-left: 100px;
+    margin-top: 15px;
+    
+}
+.grid-child > img{
+    display: grid;
+    width: 150px;
+    height: 200px;
+}
+
+.product-session{
+    background-image: url('./images/pharmacy.png');
+    background-position: center;
+    background-size: 200px;
+    color: antiquewhite;
+}
+
+.available-product{
+   
+}
+.available-product > h2{
+    color: white;
+    border: 2px solid rgb(48, 48, 94);
+    width: 15%;
+    background-color: rgb(48, 48, 94);
+    border-radius: 10px;
+    
+}
+.grid-child > p{
+    background-color: rgb(48, 48, 94);
+    width: 110px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 700px;
+    
+}
+.flex-item{
+    width: 15px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid black;
+    
+    color: white;
+    background-color: rgb(48, 48, 94);
+}
+button{
+    width: 50px;
+    height: 35px;
+    color: white;
+    background-color: rgb(48, 48, 94);
+}
+.about-us{
+    border: 2px solid rgb(48, 48, 94);
+    border-top:20px ;
+    margin-left: 5px;
+}
+.about-us > p{
+    font-size: 20px;
+    margin-left: 10px;
+    color:;
+
+}
+.about-us > h2{
+    color: rgb(48, 48, 94);
+    text-decoration: underline;
+    margin-top: 10px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    
+}
+.contact-us{
+    border: 2px solid rgb(48, 48, 94);
+    border-bottom: 20px;
+    margin-left: 5px;
+    
+
+}
+.contact-us > p{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.contact-us > h2{
+    color: rgb(48, 48, 94);
+    text-decoration: underline;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+}
+.contact-form{
+    margin-left: 10px;
+    text-align: center;
+    border: 1px solid rgb(48, 48, 94);
+    width: 350px;
+    height: 250px;
+    padding-top: 15px;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(48, 48, 94);
+    border-color: rgb(112, 89, 45);
+    
+    
+}
+footer{
+    border: 2px solid black;
+    height: 50px;
+    background-color: rgb(48, 48, 94);
+    color: white;
+}
+footer > p{
+    padding-top: 5px;
+    margin-left: 10px;
+}
+button:hover{
+    background-color: red;
+}
+button:active{
+    background-color: green;
+    transform: scale3d(0.9);
+}
